@@ -42,6 +42,10 @@
 *.idb
 *.pdb
 
+# Bin and libs
+bin/**
+lib/**
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
