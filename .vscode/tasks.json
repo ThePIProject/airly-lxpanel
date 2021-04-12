@@ -21,6 +21,18 @@
             "args": [
                 "clean"
             ]
+        },
+        {
+            "label": "Install project",
+            "type": "shell",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": [
+                "install"
+            ]
         }
     ]
 }

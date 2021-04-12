@@ -24,3 +24,4 @@ clean:
 
 install:
 	sudo cp $(BIN)/$(EXECUTABLE).so /usr/lib/arm-linux-gnueabihf/lxpanel/plugins
+	lxpanelctl restart
